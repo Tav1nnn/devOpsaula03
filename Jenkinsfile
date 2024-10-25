@@ -8,9 +8,15 @@ pipeline {
             }
         }
 
-        stage('Deploy') { steps {
+        stage('Deploy') {
+	      steps {
                 echo 'Deploying....'
             }
         }
+	stage('Tavinho') {
+		steps {
+			echo 'testeeee'
+		}
+	}
     }
 }
